@@ -18,11 +18,7 @@ struct ImagePickerView : View {
             
             Button(action: openFilePicker) {
                 Text("Select an Image")
-                    .padding()
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-            }
+            }.buttonStyle(.borderedProminent)
         }
     }
 }
